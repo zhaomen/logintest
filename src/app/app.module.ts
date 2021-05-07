@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NzFormModule } from 'ng-zorro-antd/form';
 import { NzInputModule} from 'ng-zorro-antd/input';
 import { NzButtonModule} from 'ng-zorro-antd/button';
+import { NotfoundComponent } from './module/notfound/notfound.component';
 
 
 registerLocaleData(zh);
@@ -25,7 +26,8 @@ registerLocaleData(zh);
     AppComponent,
     LoginComponent,
     ErrorComponent,
-    IndexComponent
+    IndexComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
